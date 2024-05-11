@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+cd text_counter #この行を追加。移動先のディレクトリ名はご自身の環境に合わせてください。
+npm run build
